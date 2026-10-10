@@ -5,6 +5,6 @@
     <Project Path="src/blaisePascal.EnemyOrPlayer.Domain/blaisePascal.EnemyOrPlayer.Domain.csproj" />
   </Folder>
   <Folder Name="/test/">
-    <Project Path="test/BlaisePascal.enemyOrPlayer.xunit/BlaisePascal.enemyOrPlayer.xunit.csproj" />
+    <Project Path="test/BlaisePascal.enemyOrPlayer.xunit/BlaisePascal.enemyOrPlayer.unitTest.csproj" />
   </Folder>
 </Solution>

@@ -64,11 +64,13 @@ namespace blaisePascal.EnemyOrPlayer.Domain
             }
         }
         public int MaxHealth { get; private set; }
-        public Boolean IsAlive { get; private set; }
+        public bool IsAlive { get; private set; }
         public int Gold { get; private set; }
         public string Name { get; set; }
 
-
+        //costruttore di default
+        public Player() { }
+        
         public Player(string name)
         {
             Name = name;
