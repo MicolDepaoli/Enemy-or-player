@@ -15,7 +15,7 @@ namespace blaisePascal.EnemyOrPlayer.Domain
             get { return _health; }
             private set
             {
-                if (value < 0)
+                if (value <= 0)
                 {
                     _health = 0;
                 }
